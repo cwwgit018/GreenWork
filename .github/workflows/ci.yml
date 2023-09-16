@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-      - cron: "11 */6 * * *"
+      - cron: "11 * */3 * *"
 
 jobs:
   autogreen:
